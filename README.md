@@ -22,3 +22,28 @@ transition
     transition-timing-function:ease-in;ease-out;ease-in-out;cubic-bezier(); // matthewlein.com/tools/ceaser for bezier
     transition: property duration timing-function delay;
     transition: transform 2s linear 1s;
+
+03 CSS Animations Keyframes
+
+    @keyframes name{
+        0%{
+            ...
+        }
+        50%{
+            ...
+        }
+        100%{
+            ...
+        }
+    }
+    p{
+        animation-name:name;
+        animation-duration:5s;
+        animation-timing-function:linear;
+        animation-delay:0s;
+        animation-iteration-count:infinte;
+        animation-direction:forward;reverse;alternate;
+        animation-fill-mode:none;forwards;backwards;both;
+        animation-play-state:paused;running;
+        animation: name duration timing-function delay iteration-count direction fill-mode;
+    }
