@@ -56,3 +56,8 @@ axiosbtn.addEventListener("click",function(){
         alert("ERROR");
     })
 });
+
+// adding some styles
+$("button").click(function(){
+    $(this).toggleClass("change");
+})
