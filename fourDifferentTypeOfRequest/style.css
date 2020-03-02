@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+#title{
+    text-decoration: underline;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    /* padding: auto auto; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:8px;
+    width:150px;
+    height: 40px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#quote {
+    color: #4c4a37;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0 0 24px;
+    text-align: center;
+    margin-top: 30px;
+}
+
